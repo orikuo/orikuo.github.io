@@ -1,5 +1,5 @@
-baseURL = "https://orikuo.github.io/"
-title = "Living in the truth"
+ baseURL = "https://examplesite.com/"
+title = "ExampleSite"
 paginate = 5
 theme = "PaperMod"
 enableRobotsTXT = true
@@ -15,10 +15,10 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "Ori's Blog"
-description = "Living in the truth"
+title = "ExampleSite"
+description = "ExampleSite description"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
-author = "Ori"
+author = "Me"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
@@ -27,7 +27,7 @@ ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
+ShowCodeCopyButtons = false
 ShowWordCount = true
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
@@ -47,7 +47,7 @@ tocopen = false
   safari_pinned_tab = "<link / abs url>"
 
   [params.label]
-  text = "Living in the truth"
+  text = "Home"
   icon = "/apple-touch-icon.png"
   iconHeight = 35
 
@@ -70,16 +70,19 @@ tocopen = false
 
   [params.homeInfoParams]
   Title = "Hi there 👋"
-  Content = "Welcome to my blog, I am Ori, a global citizen 🌈"
+  Content = "Welcome to my blog"
 
   [[params.socialIcons]]
   name = "twitter"
-  url = "https://twitter.com/ori_kuo"
+  url = "https://twitter.com/"
 
+  [[params.socialIcons]]
+  name = "stackoverflow"
+  url = "https://stackoverflow.com"
 
   [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/isinglever"
+  url = "https://github.com/"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
@@ -96,7 +99,7 @@ SiteVerificationTag = "XYZabc"
   hiddenInSingle = true
 
   [params.editPost]
-  URL = "https://github.com/orikuo/orikuo.github.io/content"
+  URL = "https://github.com/<path_to_repo>/content"
   Text = "Suggest Changes"
   appendFilePath = true
 
@@ -121,6 +124,11 @@ name = "tags"
 url = "/tags/"
 weight = 20
 
+[[menu.main]]
+identifier = "example"
+name = "example.org"
+url = "https://example.org"
+weight = 30
 
 [markup.highlight]
 noClasses = false
