@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Living in the truth</title>
+    <link>https://orikuo.github.io/</link>
+    <description>Recent content on Living in the truth</description>
+    <image>
+      <url>https://orikuo.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://orikuo.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 16 Jun 2022 19:00:57 +0800</lastBuildDate><atom:link href="https://orikuo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy a Hugo Blog on Github Pages</title>
+      <link>https://orikuo.github.io/posts/deploy-a-hugo-blog/</link>
+      <pubDate>Thu, 16 Jun 2022 19:00:57 +0800</pubDate>
+      
+      <guid>https://orikuo.github.io/posts/deploy-a-hugo-blog/</guid>
+      <description>Hugo: Deploy a website A personal blog is a perfect place to let the world know about you and showcase your past accomplishments. Put your resume, your projects, your blogs in with a personalized theme which makes people know you have a great taste: all-in-one! It’s your portfolio displayed online, a small yet cool project you can do with not much effort, why not?
+With Github Pages, we can host a personal webpage without bothering about finding a domain name, and with Hugo, we have a variety of themes to choose from.</description>
+    </item>
+    
+  </channel>
+</rss>
